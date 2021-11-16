@@ -5,14 +5,12 @@ import Mint from "../components/mint";
 export default function Home() {
   return (
     <>
-      <div className="mt-16">
-        <img
-          className="w-full max-w-screen-xs mx-auto"
-          src="/img/hero-bg.png"
-        />
+      <div className="mt-16 w-full max-w-screen-xs mx-auto relative">
+        <img src="/img/hero/flower.png" />
+        <img className="absolute inset-0" src="/img/hero/petals.svg" />
       </div>
       <div>
-        <div className="-mt-24 flex flex-col items-center gap-8">
+        <div className="-mt-48 flex flex-col items-center gap-8">
           <div className="px-10 py-8 bg-theme-fg rounded-sm uppercase text-7xl font-serif italic">
             BTC Flower
           </div>

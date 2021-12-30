@@ -13,7 +13,7 @@ export default function Footer() {
         <FaTwitter size="32" />
       </a>
       <a
-        href="https://discord.gg/aaVk6mH"
+        href="https://discord.gg/GGEFTC9PzH"
         className="opacity-50 hover:opacity-100"
         target="_blank"
         rel="noopener noreferrer"
